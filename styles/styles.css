@@ -1,0 +1,357 @@
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/oswald/Oswald-Light.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/oswald/Oswald-Medium.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/oswald/Oswald-Heavy.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    src: url("fonts/oswald/Oswald-Bold.ttf") format("ttf");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/Arial/arialmt.ttf") format("ttf");
+    font-display: swap;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'oswald';
+    font-size: 20px;
+}
+
+.page__title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 74px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.page__header {
+    padding: 0 110px 0 189px;
+    display: flex;
+}
+
+.navigation__list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.navigation__item {
+    margin-right: 30px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navigation__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.page__subtitle {
+    margin: 0;
+    margin-bottom: 52px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.page__description {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 26px;
+    width: 516px;
+    height: 148px;
+    background: #075DAA;
+}
+
+.navigation {
+    width: 100%;
+    height: 696px;
+    background: rgba(35, 142, 237, 0.7);
+    padding-top: 70px;
+}
+
+.page__header-flex {
+    padding-top: 70px;
+}
+
+.page__image-centre {
+    position: absolute;
+    width: 247px;
+    height: 247px;
+    left: 640px;
+    top: 248px;
+}
+
+.page__image-under {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    left: 900px;
+    top: 109px;
+    z-index: -1;
+}
+
+.main__main {
+    margin-top: 50px;
+    padding-left: 189px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section__description {
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    width: 759px;
+    height: 120px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.section__title {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.main__list {
+    width: 100%;
+    padding-right: 88px;
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-between;
+}
+
+.blue {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #228EED;
+}
+
+.main__item-des {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444444;
+}
+
+.methods {
+    margin-top: 70px;
+    padding: 110px;
+}
+
+.methods .section__title {
+    padding-left: 79px;
+}
+
+.methods__item {
+    width: 520px;
+    height: 427px;
+    background-color: #F2F2F2;
+    padding: 50px 50px 0 50px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.methods__list {
+    margin-top: 75px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 80px;
+}
+
+.blue__circle {
+    width: 100px;
+    height: 100px;
+    background: #238EEE;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.methods__title {
+    margin: 0;
+    display: block;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.methods__des {
+    margin: 0;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.instructions {
+    margin-top: 160px;
+    padding-left: 189px;
+    padding-right: 200px;
+}
+
+.instructions__des {
+    margin-top: 60px;
+    margin-left: 150px;
+    width: 759px;
+    margin-bottom: 60px;
+}
+
+.instructions__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.instructions__item, .others__item {
+    display: flex;
+    margin: 0 40px 40px 0;
+}
+
+.instructions__item-des {
+    margin: 0;
+    margin-left: 30px;
+    max-width: 264.95px;
+}
+
+.instructions__others {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.others__item-des {
+    margin: 0;
+    margin-left: 30px;
+    max-width: 490px;
+}
+
+.programs {
+    margin-top: 180px;
+    padding: 0 110px;
+}
+
+.programs__des {
+    width: 553px;
+    height: 72px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.programs .section__title {
+    line-height: 40px;
+}
+
+.programs__header {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.programs__list {
+    margin: 160px 179px 0 160px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 56px;
+}
+
+.programs__item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.programs__title {
+    margin: 0;
+    max-width: 300px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+.programs__item-des {
+    max-width: 473px;
+    margin: 0;
+    padding: 0;
+}
